@@ -1,0 +1,6 @@
+1. Install mongrel2 and its dependencies
+http://mongrel2.org/doc/tip/docs/manual/book.wiki
+
+2. Install clojure-zmq and its dependencies
+
+http://github.com/mikejs/clojure-zmq

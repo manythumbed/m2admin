@@ -1,0 +1,60 @@
+<html>
+	<head>
+		<title>m2admin</title>
+		<link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection"/>
+		<link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print"/>	
+		<!--[if lt IE 8]><link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->
+		<link href="/css/base.css" rel="stylesheet" type="text/css" media="screen"/>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="js/jquery.dataTables.min.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$('#table').dataTable();
+			});
+		</script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="span-24 last">
+				<h1>m2admin</h1>
+				<hr/>
+			</div>
+			<div class="span-6">
+				<h2>Tables</h2>
+				<ul>
+					<li>Hosts</li>
+					<li>Servers</li>
+				</ul>
+			</div>
+			<div class="span-18 last">
+				<h2>Table</h2>
+				<table class="data">
+					<thead>
+						<tr><th>A</th><th>B</th><th>C</th></tr>
+					</thead>
+					<tbody>
+						<tr><td>1</td><td>2</td><td>3</td></tr>
+						<tr><td>1</td><td>2</td><td>3</td></tr>
+						<tr><td>1</td><td>2</td><td>3</td></tr>
+						<tr><td>1</td><td>2</td><td>3</td></tr>
+						<tr><td>1</td><td>2</td><td>3</td></tr>
+						<tr><td>1</td><td>2</td><td>3</td></tr>
+						<tr><td>1</td><td>2</td><td>3</td></tr>
+						<tr><td>1</td><td>2</td><td>3</td></tr>
+						<tr><td>1</td><td>2</td><td>3</td></tr>
+						<tr><td>1</td><td>2</td><td>3</td></tr>
+						<tr><td>1</td><td>2</td><td>3</td></tr>
+					</tbody>
+					<tfoot>
+						<tr><th>A</th><th>B</th><th>C</th></tr>
+					</tfoot>
+				</table>
+			</div>
+			<div class="span-24 last">
+				<hr/>
+				m2admin
+			</div>
+		</div>
+	</body>
+</html>
